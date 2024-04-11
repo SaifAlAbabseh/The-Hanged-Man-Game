@@ -113,6 +113,7 @@ function endGame(message, textColor) {
     endGameBox.innerHTML = message;
     endGameBox.style.color = textColor;
     endGameBox.classList.add("after-game-box");
+    endGameBox.classList.add("flex-box-center");
     document.body.appendChild(endGameBox);
     document.body.style.pointerEvents = "none";
 }
